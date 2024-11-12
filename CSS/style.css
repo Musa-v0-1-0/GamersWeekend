@@ -1,0 +1,121 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.top_bar {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+/*
+.top_bar .logo {
+}*/
+
+.top_bar a:has(img):hover {
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.top_bar a:not(:has(img)) {
+    font-weight: bold;
+    text-decoration: none;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.top_bar a:not(:has(img)):hover {
+    background-color: rgb(50, 50, 50);
+    border-bottom: 3px solid red;
+}
+
+.top_bar a:not(:has(img)):active {
+    background-color: rgb(50, 50, 50);
+    border-bottom: 3px solid red;
+}
+
+
+.intro {
+    margin: 140px 100px;
+}
+
+.nav_bar {
+    margin: 140px;
+}
+
+.nav_bar a {
+    font-weight: bold;
+    text-decoration: none;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.nav_bar a:hover {
+    background-color: rgb(50, 50, 50);
+    border-bottom: 3px solid red;
+}
+
+.nav_bar a:active {
+    background-color: rgb(50, 50, 50);
+    border-bottom: 3px solid red;
+}
+
+.summary {
+    padding: 10px 140px;
+}
+
+.sumimages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sumimages img {
+    width: 800px;
+    height: 420px;
+    object-fit: cover;
+    transition: border 0.9s ease;
+    border-radius: 10px;
+}
+
+.sumimages img:hover {
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+.suggest {
+    padding: 10px 140px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.gam_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gam_images img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.gam_images p {
+    font-size: x-large;
+}
